@@ -3,9 +3,7 @@ import React from "react";
 function ContentRowMovies (){
     return(
         <React.Fragment>
-            		{/*<!-- Content Row Movies-->*/}
-					<div className="row">
-                        {/*<!-- Movies in Data Base -->*/}
+            {/*<!-- Movies in Data Base -->*/}
                         <div className="col-md-4 mb-4">
                             <div className="card border-left-primary shadow h-100 py-2">
                                 <div className="card-body">
@@ -56,8 +54,9 @@ function ContentRowMovies (){
                                 </div>
                             </div>
                         </div>
-                        </div>
-                        {/*<!-- End movies in Data Base -->*/}
+        {/*<!-- End movies in Data Base -->*/}
+            		
+                        
         </React.Fragment>
     )
 }
